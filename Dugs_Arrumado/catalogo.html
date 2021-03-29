@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Dugs</title>
+  <meta name="description" content="Dugs">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/maincatalogo.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body> 	
+	<div>
+	<header>
+		<section class="drugs">
+			<a href="index.html"><img src="img/DUGS.png"></a>
+		</section>
+		<nav>
+			<a href="index.html"><samp>HOME<samp></a>
+			<a href="medidas.html"><samp>MEDIDAS<samp></a>
+		</nav>
+	</header>
+	<section class="titulo">
+		<h1>CATÁLOGO </h1>
+	</section>
+	<section class="listaO">
+		<select id="selecao" onchange="getSelectValue();">
+			<option value="N">Tamanho</option>
+			<option value="P">P</option>
+			<option value="M">M</option>
+			<option value="G">G</option>
+			<option value="GG">GG</option>	
+		</select>
+	</section>	
+<script>	
+	function getSelectValue(){
+		var valueSelected = document.getElementById('selecao').value;
+	
+		document.getElementById('lista-p').style.display= 'none';
+		document.getElementById('lista-m').style.display= 'none';
+		document.getElementById('lista-g').style.display= 'none';
+		document.getElementById('lista-gg').style.display= 'none';
+		document.getElementById('lista-m01').style.display= 'none';
+		document.getElementById('lista-g01').style.display= 'none';
+				
+	
+	if(valueSelected == 'P'){
+		document.getElementById('lista-p').style.display= 'flex';
+}
+	else if (valueSelected == 'M'){
+	document.getElementById('lista-m').style.display= 'flex';
+	document.getElementById('lista-m01').style.display= 'flex';
+				}
+				else if (valueSelected == 'G'){
+					document.getElementById('lista-g').style.display= 'flex';		
+					document.getElementById('lista-g01').style.display= 'flex';
+				}
+				else if (valueSelected == 'GG'){
+					document.getElementById('lista-gg').style.display= 'flex';
+				}
+				else if (valueSelected == 'N'){
+					document.getElementById('lista-p').style.display= 'flex';
+					document.getElementById('lista-m').style.display= 'flex';
+					document.getElementById('lista-g').style.display= 'flex';
+					document.getElementById('lista-gg').style.display= 'flex';
+					document.getElementById('lista-m01').style.display= 'flex';
+					document.getElementById('lista-g01').style.display= 'flex';
+				}
+			}
+			
+		</script>
+
+
+
+	<section class="portfolio">
+	
+<ul id="lista-g">
+	
+	<li>
+		<a href="medidas.html">
+		<img src="img/camisacatalago.png">	
+		<h2>Camiseta Grizzly</h2>
+		<p>Tamanho G</p>
+		<p>R$ 70,00</p>
+		
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho G</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho G</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho G</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+	
+</ul>
+<ul id="lista-p"> 
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho P</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho P</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho P</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho P</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+</ul>
+<ul id="lista-m"> 
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+</ul>
+<ul id="lista-gg">
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho GG</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho GG</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho GG</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho GG</p>
+			<p>R$ 70,00</p>
+		</a>
+</ul>
+<ul id="lista-m01"> 
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho M</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+</ul>
+<ul id="lista-g01">
+	
+	<li>
+		<a href="medidas.html">
+		<img src="img/camisacatalago.png">	
+		<h2>Camiseta Grizzly</h2>
+		<p>Tamanho G</p>
+		<p>R$ 70,00</p>
+		
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho G</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho G</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="medidas.html">
+			<img src="img/camisacatalago.png">	
+			<h2>Camiseta Grizzly</h2>
+			<p>Tamanho G</p>
+			<p>R$ 70,00</p>
+		</a>
+	</li>
+	
+</ul>
+
+	</section>
+  <!-- page content -->
+</body>
+</html>

@@ -1,0 +1,894 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700');
+</style>
+
+
+
+
+section.drugs{
+	
+	display: block;
+	text-decoration: none;
+}
+section.drugs img{
+
+	height: 70%;
+	width: 6vw;
+	padding-top: 1vw;
+}
+
+
+
+
+
+
+
+
+header{
+
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 7vw;
+	padding-right: 0vw;
+	padding-top: 0vw;
+}
+
+header nav{ 
+	padding-right: 2vw;
+	padding-top: 2vw;
+}
+header nav a{
+	font-size: 1vw;
+	text-decoration: none;
+	font-family: helvetica;
+	color: rgb(0, 0, 0);
+	padding-right: 2.1vw;/*para dar espaço entre os "a" do nav*/
+	/*border: 0.0px solid;*/
+	padding: 0.5vw 1.8vw 0.5vw 1.8vw;
+	border-radius: 0.5vw;
+	
+}
+header nav a samp{
+	color:  rgb(0, 0, 0);
+}
+header nav a:hover{
+	background: rgba(143, 137, 137, 0.5);
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+section.home{
+
+	border: 0.5px solid;
+	padding: 0.5vw 1.8vw 0.5vw 1.8vw;
+	border-radius: 0.5vw;
+}
+section.home hover{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+
+
+
+
+
+
+section.banner h1{
+
+	
+	text-align: center;
+	color: #867d7d;
+	font-family: helvetica;
+
+}
+section.banner h1{
+	margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+	width: 42%;
+	font-weight: 550;
+	border-bottom: 4px solid #32C0FA;
+	line-height: 5vw;
+	padding-bottom: 2vw;
+	font-size: 2.8vw;
+	padding-top: 4vw;
+}
+section.banner p{
+	text-align: center;
+	color: #B7B4B1;
+	font-size: 1.4vw;
+	font-family: helvetica;
+	padding-top: 2vw;
+	line-height: 2.8vw;
+}
+section.banner h1 span{
+	color: #CAC6C5;
+}
+
+
+
+
+
+
+
+
+
+
+section.neon {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: consolas;
+}
+
+section.neon a {
+	margin-top: 5vw;
+	margin-bottom: 9.5vw;
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+color: #2196f3;
+text-transform: uppercase;
+letter-spacing: 4px;
+text-decoration: none;
+font-size: 24px;
+overflow: hidden;
+transition: 0.2s;
+padding: 0.5vw 1.8vw 0.5vw 1.8vw;
+border: 1px solid;
+}
+section.neon a:hover {
+	
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	transition-delay: 1s;
+
+}
+section.neon a span{
+	position: absolute;
+	display: block;
+
+}
+section.neon a span:nth-child(1)
+{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(90deg,transparent,#2196f3);
+	
+}
+section.neon a:hover span:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+section.neon a span:nth-child(3)
+{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(90deg,transparent,#2196f3);
+	
+}
+section.neon a:hover span:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+section.neon a span:nth-child(2)
+{
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg,transparent,#2196f3);
+	
+}
+section.neon a:hover span:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+section.neon a span:nth-child(4)
+{
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg,transparent,#2196f3);
+}
+section.neon a:hover span:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.80s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.promo{
+	background: url(../img/tentativa2.png) center center;	/* IMG FUNDO	*/
+	background-size: 100% 100%;
+    width: 100%;
+	padding-bottom: 5vw; 
+}
+section.promo h1{
+	font-weight: 550;
+	color: black;
+	font-size: 2.5vw;
+	padding-top: 2.5vw;
+	padding-bottom: 2vw;
+	text-align: center;
+	font-family: helvetica;
+	border-bottom: 4px solid #ececec;
+	width: 25%;
+	margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+}
+section.promo h2{
+	font-weight: 550;
+	padding-top: 2vw;
+	font-family: helvetica;
+	font-size: 1.3vw;
+	text-align: center;
+
+}
+section.promo ul{
+	padding-top: 3vw;
+	justify-content: center;
+	display: flex;
+	
+}
+section.promo ul li{
+	padding-top: 0vw;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	text-align: center;
+
+}
+section.promo img{
+	/*border-radius: 20%;*/
+
+}
+section.promo ul li.ax img{
+	
+	padding-top: 3vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.portfolio{
+	margin-top: 5vw;
+	text-align: center;
+	justify-content: center;
+	
+}
+section.portfolio h1{
+	padding-bottom: 2.3vw;
+	font-size: 2.5vw;
+	font-family: helvetica;
+	color: #1F1F1F;
+	font-weight: 550;
+	border-bottom: 2px solid #32C0FA;
+	width: 23%;
+	color: #1F1F1F;
+	margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+
+}
+
+section.portfolio p{
+	padding: 3vw 29vw 3vw 29vw;
+	line-height: 1.8vw;
+	color: gray;
+	font-family: helvetica;
+	font-size: 1.1vw;
+}
+
+section.portfolio ul{
+	margin-bottom: 0vw;
+	margin-top: 0vw;
+	padding: 0vw;
+	padding-right: 1vw;
+	display: flex;
+
+	
+}
+section.portfolio li{
+	margin-bottom:-0.45vw;
+	width: 20.3%;
+}
+
+section.portfolio ul li img{
+	height: 100%;
+	margin-left: 20vw;
+}
+
+section.portfolio img{
+		width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SERVICES*/
+section.services h1{
+	font-weight: 550;
+	padding-top: 10vw;
+	text-align: center;
+	border-bottom: 2px solid #32C0FA;
+	width: 23%;
+	font-family: helvetica;
+	padding-bottom: 1.8vw;
+	font-size: 2.5vw;
+	color: #1F1F1F;
+	margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+}
+section.services ul{
+	display: flex;
+	text-align: center;
+	margin:6vw 6vw 0vw 5vw;
+	align-items: baseline; /*alinhar os itens*/
+}
+section.services h2{
+	font-weight: 550;
+	padding-top: 2vw;
+	padding-bottom: 1vw;
+	font-size: 1.3vw;
+	color: #1F1F1F;
+	font-family: helvetica;
+}
+section.services p{
+	font-size: 1.2vw;
+	color: gray;
+	font-family: helvetica;
+	line-height: 1.6vw;
+}
+section.services ul li{
+
+	display: block;
+	text-decoration: none;
+	padding: 1.5vw 1.3vw 5vw 1.3vw;
+}
+
+
+
+
+
+
+
+
+section.zap {
+	display: flex;
+	margin-top: 3vw;
+	margin-bottom: 5vw;
+}
+section.zap a img{
+	height: 80%;
+	width: 99%;
+	margin-left: 0.3vw;
+	margin-bottom: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+/*TEAM*/
+section.team{
+
+	padding-bottom: 12vw; 
+}
+section.team h1{
+	font-weight: 550;
+	font-size: 2.5vw;
+	padding-top: 0vw;
+	padding-bottom: 2vw;
+	text-align: center;
+	font-family: helvetica;
+	border-bottom: 2px solid #32C0FA;
+	width: 25%;
+	margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+}
+section.team img{
+	border-radius: 50%;
+}
+section.team li{
+	padding-top: 3vw;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	text-align: center;
+}
+section.team li a img{
+	padding: 0.3vw;
+}
+section.team ul{
+	padding-top: 5vw;
+	justify-content: center;
+	list-style-type: none;
+	display: flex;
+	margin: 0vw;
+}
+section.team h2{
+	font-weight: 550;
+	margin: 1.5vw 1vw 0.6vw 2vw;
+	font-family: helvetica;
+	font-size: 1.3vw;
+
+}
+section.team p{
+	margin: 0.6vw 1vw 0.6vw 2vw;
+	color: gray;
+	font-family: helvetica;
+	font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+	background: black;
+	padding: 2vw 0vw 1vw 0vw;
+	text-align: center;
+}
+footer p{
+	font-family: helvetica;
+	font-size: 1vw;
+	border-top: 1px solid;
+	padding-top: 1vw;
+	width: 70%;
+	color: white;
+	margin: 0vw auto;
+}
+/*TABLET*/
+@media all and (max-width: 900px) { 
+header h1{
+	padding-top: 1.5vw;
+}
+
+header nav a{
+	font-size: 1.7vw;
+	}
+	section.banner h1{
+		font-size: 4vw;
+
+	}
+	section.banner p{
+		font-size: 2.3vw;
+		padding: 2vw 10vw 2vw 10vw;
+	}
+	section.services h1{
+		font-size: 3.5vw;
+	}
+	section.services ul li{
+		padding-top: 0vw;
+	}
+	section.services h2{
+		font-size: 2.5vw;
+	}
+	section.services p{
+		padding-top: 2vw;
+		line-height: 2.5vw;
+		font-size: 2.2vw;
+	}
+	section.services ul{
+		display: block;
+		flex-wrap: wrap;
+		padding-right:  15vw;
+		padding-left: 15vw;
+	}
+	section.portfolio li{
+		flex-wrap: wrap;
+	}
+	section.portfolio ul li img{
+		margin-bottom: -0.4vw;
+	}
+	section.portfolio h1{
+		font-size: 3.5vw;
+	}
+	section.portfolio p{
+		line-height: 2.5vw;
+		font-size: 2.2vw;
+		padding: 2vw 20vw 5vw 20vw;
+	}
+	
+	.pessoas{
+		width: 90%;
+	}
+	section.team h1{
+		font-size: 5vw;
+	}
+	section.team p{
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		font-size: 2.5vw;
+		
+	}
+	section.team h2{
+		font-size: 3vw;
+
+	}
+	footer p{
+		font-size: 2vw;
+	}
+}/*SMARTPHONE*/
+@media all and (max-width: 480px) {
+
+	section.drugs{
+		display: block;
+		text-decoration: none;
+	}
+	section.drugs img{
+		height: 60%;
+		width: 6vw;
+		padding-top: 2vw;		
+	}
+	
+	header{
+		background-color: #ffffff;
+		display: flex;
+		justify-content: space-between;
+		padding-left: 7vw;
+		padding-right: 0vw;
+		padding-top: 0vw;
+	}
+		
+	header nav{ 
+		padding-right: 2vw;
+		padding-top: 2vw;
+	}
+	
+	header nav a{
+		text-decoration: none;
+		font-family: helvetica;
+		color: rgb(0, 0, 0);
+		padding-right: 2.1vw;/*para dar espaço entre os "a" do nav*/
+		/*border: 0.0px solid;*/
+		padding: 0.5vw 1.8vw 0.5vw 1.8vw;
+		border-radius: 0.5vw;	
+	}
+	
+	header nav a samp{
+		color:  rgb(0, 0, 0);
+	}
+	
+	header nav a:hover{
+		background: rgba(143, 137, 137, 0.5);
+		color: white;
+	}
+	
+	
+	
+	section.banner h1{
+		border-bottom: 2px solid #32C0FA;
+	}
+	
+	section.neon {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-family: consolas;
+	}
+	
+	section.neon a {
+		margin-top: 5vw;
+		margin-bottom: 9.5vw;
+		position: relative;
+		display: inline-block;
+		padding: 15px 30px;
+		color: #2196f3;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-decoration: none;
+		font-size: 15px;
+		overflow: hidden;
+		transition: 0.2s;
+		padding: 0.5vw 1.8vw 0.5vw 1.8vw;
+		border: 1px solid;
+	}
+	section.neon a:hover {
+		
+		color: #255784;
+		background: #2196f3;
+		box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+		transition-delay: 1s;
+	
+	}
+	section.neon a span{
+		position: absolute;
+		display: block;
+	
+	}
+	section.neon a span:nth-child(1)
+	{
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 3px;
+		background: linear-gradient(90deg,transparent,#2196f3);
+		
+	}
+	section.neon a:hover span:nth-child(1){
+		left: 100%;
+		transition: 1s;
+	}
+	
+	section.neon a span:nth-child(3)
+	{
+		bottom: 0;
+		right: -100%;
+		width: 100%;
+		height: 3px;
+		background: linear-gradient(90deg,transparent,#2196f3);
+		
+	}
+	section.neon a:hover span:nth-child(3){
+		right: 100%;
+		transition: 1s;
+		transition-delay: 0.5s;
+	}
+	section.neon a span:nth-child(2)
+	{
+		top: -100%;
+		right: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(180deg,transparent,#2196f3);
+		
+	}
+	section.neon a:hover span:nth-child(2){
+		top: 100%;
+		transition: 1s;
+		transition-delay: 0.25s;
+	}
+	
+	section.neon a span:nth-child(4)
+	{
+		bottom: -100%;
+		left: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(360deg,transparent,#2196f3);
+	}
+	section.neon a:hover span:nth-child(4){
+		bottom: 100%;
+		transition: 1s;
+		transition-delay: 0.80s;
+	}
+	
+	
+	
+	
+	
+	
+	section.promo h1{
+		font-weight: 600;
+		font-size: 3.2vw;
+		border-bottom: 2px solid #ececec;
+		width: 25%;
+		text-align: center;
+	
+	}
+	section.promo h2{
+	
+		font-size: 2vw;
+	}
+	section.promo ul{
+		padding-top: 5vw;
+		justify-content: center;
+		display: flex;
+		
+	}
+	section.promo ul li{
+		padding-top: 0vw;
+		padding-right: 2vw;
+		padding-left: 2vw;
+		text-align: center;
+	
+	}
+
+	
+	
+	
+	
+	
+	section.portfolio{
+		margin-top: 5vw;
+		text-align: center;
+		justify-content: center;
+		
+	}
+	section.portfolio h1{
+		padding-bottom: 2.3vw;
+		font-size: vw;
+		font-family: helvetica;
+		color: #1F1F1F;
+		font-weight: 600;
+		border-bottom: 2px solid #32C0FA;
+		width: 23%;
+		color: #1F1F1F;
+		margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+	}
+	
+	section.portfolio p{
+		color: gray;
+		font-family: helvetica;
+		font-size: 2.1vw;
+	}
+	
+	section.portfolio ul{
+		margin-bottom: 0vw;
+		margin-top: 0vw;
+		padding: 0vw;
+		padding-right: 1vw;
+		display: flex;
+	
+		
+	}
+	section.portfolio li{
+		
+		width: 26%;
+	}
+	
+	section.portfolio ul li img{
+		height: 100%;
+		margin-left: 12vw;
+	}
+	
+	section.portfolio img{
+			width: 100%;
+	}
+	
+	section.zap img{
+		width: 100%;
+	}
+	
+	
+	/*SERVICES*/
+	section.services {
+	margin-top: 5vw;
+	}
+	
+	section.services ul{
+		display: flex;
+		text-align: center;
+		margin:6vw 6vw 0vw 5vw;
+		align-items: baseline; /*alinhar os itens*/
+	}
+	
+	
+	section.services ul li{
+	
+		display: block;
+		text-decoration: none;
+		padding: 1.5vw 1.3vw 5vw 1.3vw;
+	
+	}
+	section.services ul li img{
+		width: 25%;
+	}
+	
+	section.team li a img{
+		padding: 0.3vw;
+	}
+	
+	
+	
+	
+	/*TEAM*/
+	section.team{
+		padding-bottom: 12vw; 
+	}
+	section.team h1{
+		font-weight: 600;
+		font-size: 4vw;
+		padding-top: 0vw;
+		padding-bottom: 2vw;
+		text-align: center;
+		font-family: helvetica;
+		border-bottom: 2px solid #32C0FA;
+		width: 25%;
+		margin: 0 auto; /*para ficar no centro, e auto é para os dois lados ficarem iguais*/
+	}
+	section.team img{
+		border-radius: 50%;
+		width: 60%;	
+	}
+	section.team li{
+		padding-top: 3vw;
+		padding-right: 2vw;
+		padding-left: 2vw;
+		text-align: center;
+	}
+	section.team li a img{
+		padding: 0.3vw;
+	}
+	section.team ul{
+		padding-top: 5vw;
+		justify-content: center;
+		list-style-type: none;
+		display: flex;
+		margin: 0vw;
+		width: 100%;
+	}
+	section.team h2{
+		font-weight: 550;
+		margin: 1.5vw 1vw 0.6vw 2vw;
+		font-family: helvetica;
+		font-size: 3.2vw;	
+	}
+	section.team p{
+		margin: 0.6vw 1vw 0.6vw 2vw;
+		color: gray;
+		font-family: helvetica;
+		font-size: 3vw;
+	}
+	section.team ul li a img{
+		width: 15%;
+	}
+}
